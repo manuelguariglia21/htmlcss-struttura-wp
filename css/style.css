@@ -9,10 +9,10 @@ body {
   margin: 0 auto;
 }
 
-header{
+
+.header-top{
   height: 124px;
   background-color: #e579e6;
-  margin-top: 23px;
 }
 
 .clearfix::after{ 
@@ -21,8 +21,6 @@ header{
 	clear:both 
 }
 
-/* MAIN */
-
 /* Jumbotron */
 .jumbotron{
   height: 350px;
@@ -30,6 +28,15 @@ header{
   margin-top: 23px;
 }
 /* /Jumbotron */
+
+/* MAIN */
+
+main{
+
+  background-color: blue;
+  padding-bottom: 23px;
+
+}
 
 /* Content */
 
